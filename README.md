@@ -15,6 +15,30 @@ Deer - deer can reproduce once every four turns and they must be in perfect heal
 
 When the program starts up, the position and how long since reproduction must be random (otherwise everything reproduces in lockstep).
 
+------------------------------------------------------------------
+Original README
+Project: foxes-and-rabbits-v2
+Authors: Michael Kölling and David J. Barnes
+
+This project is part of the material for chapter 10 of the book
+
+   Objects First with Java - A Practical Introduction using BlueJ
+   Seventh edition
+   David J. Barnes and Michael Kölling
+
+A predator-prey simulation involving foxes and rabbits in
+an enclosed rectangular field.
+
+This is the second version of the simulation. This version
+makes use of inheritance for the animals.
+
+How to start:
+    Create a Simulator object.
+    Then call one of:
+        + simulateOneStep - for a single step.
+        + simulate - and supply a number (say 10) for that many steps.
+        + runLongSimulation - for a simulation of 500 steps.
+
 Note: Work on this assignment incrementally (get the basics first, if you can get grass to grow, you are at least half way to finishing). If you are stuck, submit what you can do. We will be looking to see that you've demonstrated mastery of the concepts in the book (to demonstrate all the concepts, you need to define all of the species, but you can do this without demonstrating complete mastery of the rules.
 
 Reverse engineer the F&R simulation. Start by studying  the Foxes and Rabbits Video and reading the first half of Chapter 12 OFWJ. 
